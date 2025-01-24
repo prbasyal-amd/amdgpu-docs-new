@@ -83,3 +83,34 @@ their own performance testing for additional tuning.
 
      - `CDNA architecture <https://www.amd.com/system/files/documents/amd-cdna-whitepaper.pdf>`_
 
+
+Workstation workloads
+=====================
+
+Workstation workloads, much like those for HPC, have a unique set of
+requirements: a blend of both graphics and compute, certification, stability and
+others.
+
+The document covers specific software requirements and processes needed to use
+these GPUs for Single Root I/O Virtualization (SR-IOV) and machine learning
+tasks.
+
+The main purpose of this document is to help users utilize the RDNA™ 2 GPUs to
+their full potential.
+
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+
+   * - System optimization guide
+
+     - Architecture reference
+
+     - White papers
+
+   * - :doc:`AMD Radeon PRO W6000 and V620 <rocm:how-to/system-optimization/w6000-v620>`
+
+     - `AMD RDNA 2 instruction set architecture <https://www.amd.com/system/files/TechDocs/rdna2-shader-instruction-set-architecture.pdf>`_
+
+     - `RDNA 2 architecture <https://www.amd.com/system/files/documents/rdna2-explained-radeon-pro-W6000.pdf>`_
+

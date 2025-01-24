@@ -97,7 +97,7 @@ Operating system settings
 -----------------------------------
 
 The operating system provides several options to customize and tune performance. For more information 
-about supported operating systems, see the :doc:`Compatibility matrix <../../compatibility/compatibility-matrix>`. 
+about supported operating systems, see the :doc:`Compatibility matrix <rocm:compatibility/compatibility-matrix>`. 
  
 If you are using a distribution other than RHEL or SLES, the latest Linux kernel is recommended.
 Performance considerations for the Zen4, which is the core architecture in the MI300A, 
@@ -275,8 +275,8 @@ For a complete guide on installing, managing, and uninstalling ROCm on Linux, se
 :doc:`Quick-start (Linux)<rocm-install-on-linux:install/quick-start>`. To verify that the
 installation was successful, see the
 :doc:`Post-installation instructions<rocm-install-on-linux:install/post-install>` and 
-:doc:`ROCm tools <../../reference/rocm-tools>` guides. If verification
-fails, consult the :doc:`System debugging guide <../system-debugging>`.
+:doc:`ROCm tools <rocm:reference/rocm-tools>` guides. If verification
+fails, consult the :doc:`System debugging guide <rocm:how-to/system-debugging>`.
 
 .. _hw-verification-rocm-label:
 
