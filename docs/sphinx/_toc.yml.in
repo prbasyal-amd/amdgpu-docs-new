@@ -1,9 +1,11 @@
 root: index.md
 subtrees:
-  - caption: Documentation
+  - caption: GPU documentation
     entries:
     - url: https://dcgpu.docs.amd.com/projects/gpu-operator/en/latest/
-      title: GPU Operator
+      title: GPU operator
+  - caption: How to
+    entries:
     - file: system-optimization/index.rst
       title: System optimization
       subtrees:
@@ -16,5 +18,11 @@ subtrees:
           title: AMD Instinct MI200
         - file: system-optimization/mi100.md
           title: AMD Instinct MI100
+  - caption: Conceptual
+    entries:
+    - file: conceptual/iommu.rst
+      title: Input-Output Memory Management Unit (IOMMU)
+    - file: conceptual/pcie-atomics.rst
+      title: PCIe atomics in ROCm
     - file: conceptual/oversubscription.rst
       title: Oversubscription of hardware resources
