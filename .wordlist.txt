@@ -676,6 +676,7 @@ nanoGPT
 num
 numref
 ocl
+ol
 opencl
 opencv
 openmp
