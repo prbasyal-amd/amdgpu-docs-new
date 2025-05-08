@@ -27,6 +27,8 @@ The AMD Instinct documentation is organized into the following categories:
 :class-body: rocm-card-banner rocm-hue-12
 
 * [System optimization](./system-optimization/index.rst)
+* [GPU Partitioning](./gpu-partitioning/index.rst)
+
 :::
 
 :::{grid-item-card} Conceptual
