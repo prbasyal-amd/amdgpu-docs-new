@@ -235,7 +235,7 @@ sphinx-external-toc==1.0.1
     # via rocm-docs-core
 sphinx-notfound-page==1.1.0
     # via rocm-docs-core
-sphinx-reredirects==0.1.5
+sphinx-reredirects==0.1.6
     # via -r requirements.in
 sphinx-substitution-extensions==2025.6.6
     # via -r requirements.in
