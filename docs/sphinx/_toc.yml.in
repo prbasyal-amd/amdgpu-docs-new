@@ -1,6 +1,11 @@
 root: index.md
 subtrees:
-  - caption: Install AMDGPU driver
+  - entries:
+    - file: documentation/change-logs/30.10.0.md
+      title: Release notes
+    - file: compatibility/compatibility-matrix.rst
+      title: Compatibility matrix
+  - caption: Install AMD GPU Driver
     entries:
       - file: install/detailed-install/prerequisites
         title: Prerequisites
@@ -16,6 +21,8 @@ subtrees:
             title: Red Hat Enterprise Linux
           - file: install/detailed-install/package-manager/package-manager-ol
             title: Oracle Linux
+          - file: install/detailed-install/package-manager/package-manager-rl
+            title: Rocky Linux
           - file: install/detailed-install/package-manager/package-manager-sles
             title: SUSE Linux Enterprise Server
           - file: install/detailed-install/package-manager/package-manager-azl
