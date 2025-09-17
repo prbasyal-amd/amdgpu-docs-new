@@ -70,7 +70,7 @@ Uninstall kernel-mode driver
 
     sudo dnf remove amdgpu-dkms
 
-Remove amdgpu repositories
+Remove AMDGPU repositories
 ---------------------------------------------------------------------------
 
 .. code-block:: bash
